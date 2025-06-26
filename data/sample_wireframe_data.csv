@@ -1,0 +1,5 @@
+project,device,page_name,page_path
+SAMPLE_PROJECT,web,get_started_screen,Get_Started Screen
+SAMPLE_PROJECT,web,get_started_screen_pop_up,Get_Started Screen
+SAMPLE_PROJECT,android_mobile,Subscribe,Home Main > Subscribe
+SAMPLE_PROJECT,apple_mobile,Subscribe,Home Main > Subscribe
