@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 from models import Wireframe, Base
 
-CSV_PATH = "data/sample_wireframe_data.csv"  # or pass a new filename
+CSV_PATH = "data/wireframe_data.csv"  # or pass a new filename
 
 def import_wireframes(csv_file: str = CSV_PATH):
     if not os.path.exists(csv_file):
