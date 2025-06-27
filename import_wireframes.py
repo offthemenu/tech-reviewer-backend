@@ -6,7 +6,10 @@ from models import Wireframe, Base
 
 CSV_PATH = "data/wireframe_data.csv"  # or pass a new filename
 
+
 def import_wireframes(csv_file: str = CSV_PATH):
+    print("[INFO] Starting wireframe import...")
+    
     if not os.path.exists(csv_file):
         print(f"[ERROR] File not found: {csv_file}")
         return
