@@ -1,5 +1,24 @@
 project,device,page_name,page_path
-Plan Screen Improvement,web,get_started_screen,Get_Started Screen
-SAMPLE_PROJECT,web,get_started_screen_pop_up,Get_Started Screen
-SAMPLE_PROJECT,android_mobile,Subscribe,Home Main > Subscribe
-SAMPLE_PROJECT,apple_mobile,Subscribe,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Basic_Monthly,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Basic_Annual,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Basic_Description,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Premium_Monthly,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Premium_Annual,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Premium_Description,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Notice,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Features,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Contents,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_single_pass,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Subscribing,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Upgrade_Monthly,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Upgrade_Annual,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Upgrade_Unable,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Promotion,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_Basic,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_Upgrade,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_popup_1,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_popup_2,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_Promotion,Home Main > Subscribe
+Plan Page Improvement,mobile,Subscription_Promotion_Basic,Home Main > Subscribe
