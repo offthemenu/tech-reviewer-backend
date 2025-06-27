@@ -72,7 +72,11 @@ def get_dropdown_data(db: Session = Depends(get_db)):
     all_wireframes = db.query(Wireframe).all()
 
     if not all_wireframes:
-        raise ValueError("No wireframes found")
+        return {
+        "projects": [],
+        "devices_by_project": {},
+        "pages_by_project_device": {}
+    }
 
     projects = set()
     devices_by_project = {}
