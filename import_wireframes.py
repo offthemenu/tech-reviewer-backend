@@ -1,15 +1,16 @@
 import csv
 import os
 from sqlalchemy.orm import Session
-from database import SessionLocal, engine
+from database import SessionLocal, engine, DATABASE_URL
 from models import Wireframe, Base
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(BASE_DIR, "data", "wireframe_data.csv")
 
-
 def import_wireframes(csv_file: str = CSV_PATH):
     print("[INFO] Starting wireframe import...")
+    print("[INFO] Using DB URL:", DATABASE_URL)
+    print("[INFO] CSV file path:", csv_file)
 
     if not os.path.exists(csv_file):
         print(f"[ERROR] File not found: {csv_file}")
