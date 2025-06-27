@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://tech-reviewer-frontend.vercel.app/"],  # In production, specify domains
+    allow_origins=["*"],  # In production, specify domains
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
