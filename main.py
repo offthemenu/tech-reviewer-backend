@@ -10,7 +10,6 @@ from models import Wireframe
 from database import SessionLocal
 from routers import wireframe, comment, upload, checker
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Runs before the app starts
