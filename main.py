@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from routers import wireframe, comment, upload
+from routers import wireframe, comment, upload, checker
 import os
 import uvicorn
 
@@ -23,6 +23,7 @@ app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 app.include_router(comment.router)
 app.include_router(wireframe.router)
 app.include_router(upload.router)
+app.include_router(checker.router)
 
 @app.get("/v01/")
 def root():
