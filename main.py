@@ -12,47 +12,21 @@ from routers import wireframe, comment, upload, checker
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Runs before the app starts
-    """
-    Lifespan context manager for the FastAPI application.
+    # Pre-startup: always import wireframes
+    print("[LIFESPAN] Importing wireframes from CSV…")
+    import_wireframes()
 
-    This function is an asynchronous context manager that handles the lifespan
-    of the FastAPI application. It ensures that necessary setup and teardown
-    tasks are executed before the app starts and after it shuts down, respectively.
+    yield  # Application runs
 
-    Before the app starts, it checks if the wireframes table in the database
-    is empty. If it is, it imports wireframes from a CSV file. After the app
-    shuts down, it attempts to dispose of the database session.
-
-    Args:
-        app (FastAPI): The FastAPI application instance.
-
-    Yields:
-        None: Control is returned to the application to run.
-    """
-    db = SessionLocal()
+    # Post-shutdown cleanup (optional)
     try:
-        if db.query(Wireframe).count() == 0:
-            print("[LIFESPAN] No wireframes found in DB. Importing from CSV.")
-            import_wireframes()
-        else:
-            print("[LIFESPAN] Wireframes already present.")
-    finally:
-        db.close()
-
-    yield  # App runs after this
-    # Runs after the app is shut down
-    db = SessionLocal()
-    try:
-        db.dispose()
+        SessionLocal().close()
     except Exception as e:
-        print(f"[LIFESPAN] Failed to dispose db session: {e}")
-    finally:
-        db.close()
+        print(f"[LIFESPAN] Error closing DB session: {e}")
 
 app = FastAPI(lifespan=lifespan)
 
-# Middleware
+# Allow any front‑end origin (adjust in production as needed)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -61,21 +35,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Static files
+# Serve uploaded PDFs
 os.makedirs("uploads", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
-# Routers
+# API Routers
 app.include_router(comment.router)
 app.include_router(wireframe.router)
 app.include_router(upload.router)
 app.include_router(checker.router)
 
-# Health check
 @app.get("/v01/")
-def root():
+def health_check():
     return {"message": "Backend is running"}
-
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=10000)
