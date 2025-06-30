@@ -13,6 +13,17 @@ from routers import wireframe, comment, upload, checker
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Pre-startup: always import wireframes
+    """
+    An async context manager for managing the FastAPI application lifecycle.
+
+    During the pre-startup phase, this function imports wireframes from a CSV file
+    into the database. It ensures that the wireframe data is always up-to-date before
+    the application starts serving requests.
+
+    After the application shuts down, it optionally performs cleanup by closing
+    the database session to release resources and avoid potential memory leaks.
+    """
+
     print("[LIFESPAN] Importing wireframes from CSV…")
     import_wireframes()
 
