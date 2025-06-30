@@ -13,6 +13,23 @@ from routers import wireframe, comment, upload, checker
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Runs before the app starts
+    """
+    Lifespan context manager for the FastAPI application.
+
+    This function is an asynchronous context manager that handles the lifespan
+    of the FastAPI application. It ensures that necessary setup and teardown
+    tasks are executed before the app starts and after it shuts down, respectively.
+
+    Before the app starts, it checks if the wireframes table in the database
+    is empty. If it is, it imports wireframes from a CSV file. After the app
+    shuts down, it attempts to dispose of the database session.
+
+    Args:
+        app (FastAPI): The FastAPI application instance.
+
+    Yields:
+        None: Control is returned to the application to run.
+    """
     db = SessionLocal()
     try:
         if db.query(Wireframe).count() == 0:
@@ -32,7 +49,6 @@ async def lifespan(app: FastAPI):
         print(f"[LIFESPAN] Failed to dispose db session: {e}")
     finally:
         db.close()
-
 
 app = FastAPI(lifespan=lifespan)
 
