@@ -15,6 +15,7 @@ Plan Page Improvement,web,Subscribe_Upgrade_Monthly,Home Main > Subscribe
 Plan Page Improvement,web,Subscribe_Upgrade_Annual,Home Main > Subscribe
 Plan Page Improvement,web,Subscribe_Upgrade_Unable,Home Main > Subscribe
 Plan Page Improvement,web,Subscribe_Promotion,Home Main > Subscribe
+Plan Page Improvement,web,Subscribe_Promotion_Time,Home Main > Subscribe
 Plan Page Improvement,apple_mobile,Subscription,Home Main > Subscribe
 Plan Page Improvement,apple_mobile,Subscription_Basic,Home Main > Subscribe
 Plan Page Improvement,apple_mobile,Subscription_Upgrade,Home Main > Subscribe
@@ -42,3 +43,172 @@ Plan Page Improvement,smart_tv,Subscription,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Subscribed,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Purchase,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Promotion,Home Main > Subscription
+Email Verification,web,get_started_screen,Get_Started Screen
+Email Verification,web,get_started_screen_2,Get_Started Screen
+Email Verification,web,get_started_screen_pop_up,Get_Started Screen
+Email Verification,web,get_started_screen_3,Get_Started Screen
+Email Verification,web,get_started_screen_4,Get_Started Screen
+Email Verification,web,get_started_screen_5,Get_Started Screen
+Email Verification,web,get_started_screen_6,Get_Started Screen
+Email Verification,web,get_started_screen_7,Get_Started Screen
+Email Verification,web,sign_up,Get Started > Sign Up
+Email Verification,web,sign_up_error,Get Started > Sign Up
+Email Verification,web,sign_up_sso,Get Started > Sign Up
+Email Verification,web,sign_up_2_step,Get Started > Sign Up > Sign Up 2 Step
+Email Verification,web,sign_up_2_step_error,Get Started > Sign Up > Sign Up 2 Step
+Email Verification,web,sign_up_email,Get Started > Sign Up > Sign Up 2 Step > Sign Up 3 Step
+Email Verification,web,sign_up_4step,Get Started > Sign Up > Sign Up 2 Step > Sign Up 3 Step > Sign Up 4 Step
+Email Verification,web,sign_in,Get Started > Sign In
+Email Verification,web,sign_in_2,Get Started > Sign In
+Email Verification,web,sign_in_error,Get Started > Sign In
+Email Verification,web,multi_profile_email,Get Started > Sign In > Multi Profile
+Email Verification,web,multi_profile_verification,Get Started > Sign In > Multi Profile > Email Verification
+Email Verification,web,multi_profile_email_new_user,Get Started > Sign In > Multi Profile
+Email Verification,web,multi_profile_verification_new_user,Get Started > Sign In > Multi Profile > Email Verification
+Email Verification,web,my_account,Home Main > My Account
+Email Verification,web,my_account_email,Home Main > My Account
+Email Verification,web,my_account_manage_veri,Home Main > My Account > Management
+Email Verification,web,my_account_manage_not_veri,Home Main > My Account > Management
+Email Verification,web,my_account_manage_not_save,Home Main > My Account > Management
+Email Verification,web,my_account_manage_not_save_error,Home Main > My Account > Management
+Email Verification,web,my_account_manage_not_save_popup,Home Main > My Account > Management
+Email Verification,web,my_account_manage_wait,Home Main > My Account > Management
+Email Verification,web,my_account_manage_wait_error,Home Main > My Account > Management
+Email Verification,web,my_account_manage_wait_error_2,Home Main > My Account > Management
+Email Verification,android_mobile,get_started_screen,Get Started
+Email Verification,android_mobile,get_started_screen,Get Started
+Email Verification,android_mobile,get_started_screen_FAQs,Get Started > FAQs
+Email Verification,android_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
+Email Verification,android_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
+Email Verification,android_mobile,get_started_screen_help_center,Get Started > Help Center
+Email Verification,android_mobile,get_started_screen_2nd,Get Started
+Email Verification,android_mobile,get_started_screen_3rd,Get Started
+Email Verification,android_mobile,get_started_screen_4th,Get Started
+Email Verification,android_mobile,get_started_screen_5th,Get Started
+Email Verification,android_mobile,sign_up,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_2,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_error,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_2_step,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_2_step_error,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_3_step,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_3_step_popup,Get Started > Sign Up
+Email Verification,android_mobile,sign_up_completed,Get Started > Sign Up
+Email Verification,android_mobile,multi_profile,Sign In > Multi Profile
+Email Verification,android_mobile,multi_profile_popup,Sign In > Multi Profile
+Email Verification,android_mobile,multi_profile_veri,Sign In > Multi Profile > Email Verification
+Email Verification,android_mobile,multi_profile_popup_2,Sign In > Multi Profile
+Email Verification,android_mobile,multi_profile_veri_popup,Sign In > Multi Profile > Email Verification
+Email Verification,android_mobile,my_account,Home > Account > My Account
+Email Verification,android_mobile,my_account_not_veri,Home > Account > My Account
+Email Verification,android_mobile,my_account_management,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_email_edit,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_not_veri,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_not_veri_edit,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_editing,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_popup1,Home > Account > My Account > Account Management
+Email Verification,android_mobile,my_account_management_wait_email_veri,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,get_started_screen,Get Started
+Email Verification,apple_mobile,get_started_screen,Get Started
+Email Verification,apple_mobile,get_started_screen_FAQs,Get Started > FAQs
+Email Verification,apple_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
+Email Verification,apple_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
+Email Verification,apple_mobile,get_started_screen_help_center,Get Started > Help Center
+Email Verification,apple_mobile,get_started_screen_2nd,Get Started
+Email Verification,apple_mobile,get_started_screen_3rd,Get Started
+Email Verification,apple_mobile,get_started_screen_4th,Get Started
+Email Verification,apple_mobile,get_started_screen_5th,Get Started
+Email Verification,apple_mobile,sign_up,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_2,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_error,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_2_step,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_2_step_error,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_3_step,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_3_step_popup,Get Started > Sign Up
+Email Verification,apple_mobile,sign_up_completed,Get Started > Sign Up
+Email Verification,apple_mobile,multi_profile,Sign In > Multi Profile
+Email Verification,apple_mobile,multi_profile_popup,Sign In > Multi Profile
+Email Verification,apple_mobile,multi_profile_veri,Sign In > Multi Profile > Email Verification
+Email Verification,apple_mobile,multi_profile_popup_2,Sign In > Multi Profile
+Email Verification,apple_mobile,multi_profile_veri_popup,Sign In > Multi Profile > Email Verification
+Email Verification,apple_mobile,my_account,Home > Account > My Account
+Email Verification,apple_mobile,my_account_not_veri,Home > Account > My Account
+Email Verification,apple_mobile,my_account_management,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_email_edit,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_not_veri,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_not_veri_edit,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_editing,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_popup1,Home > Account > My Account > Account Management
+Email Verification,apple_mobile,my_account_management_wait_email_veri,Home > Account > My Account > Account Management
+Email Verification,apple_tv,get_started,Run App > Sign In
+Email Verification,apple_tv,sign_up,Run App > Landing > Sign Up
+Email Verification,apple_tv,sign_up_2,Run App > Landing > Sign Up
+Email Verification,apple_tv,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
+Email Verification,apple_tv,sign_up_completed,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step > Sign Up Complete
+Email Verification,apple_tv,sign_in,Run App > Landing > Sign In
+Email Verification,apple_tv,sign_in_2,Run App > Landing > Sign In
+Email Verification,apple_tv,sign_in_error,Run App > Landing > Sign In
+Email Verification,apple_tv,Mobile_Sign_In,Run App > Landing > Mobile Sign In
+Email Verification,apple_tv,privacy_policy,Run App > Landing > Privacy Policy
+Email Verification,apple_tv,privacy_policy_content,Run App > Landing > Privacy Policy > Privacy Policy Content
+Email Verification,apple_tv,multi_profile,Multi Profile
+Email Verification,apple_tv,multi_profile_email,Multi Profile
+Email Verification,apple_tv,multi_profile_email_verification,Multi Profile
+Email Verification,apple_tv,multi_profile_email_new_user,Multi Profile
+Email Verification,apple_tv,multi_profile_verification_new_user,Multi Profile
+Email Verification,apple_tv,setting_my_account,Home Main > Setting
+Email Verification,apple_tv,setting_my_account_2,Home Main > Setting
+Email Verification,android_tv,get_started,Run App > Sign In
+Email Verification,android_tv,sign_up,Run App > Landing > Sign Up
+Email Verification,android_tv,sign_up_2,Run App > Landing > Sign Up
+Email Verification,android_tv,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
+Email Verification,android_tv,sign_up_completed,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step > Sign Up Complete
+Email Verification,android_tv,sign_in,Run App > Landing > Sign In
+Email Verification,android_tv,sign_in_2,Run App > Landing > Sign In
+Email Verification,android_tv,sign_in_error,Run App > Landing > Sign In
+Email Verification,android_tv,Mobile_Sign_In,Run App > Landing > Mobile Sign In
+Email Verification,android_tv,privacy_policy,Run App > Landing > Privacy Policy
+Email Verification,android_tv,privacy_policy_content,Run App > Landing > Privacy Policy > Privacy Policy Content
+Email Verification,android_tv,multi_profile,Multi Profile
+Email Verification,android_tv,multi_profile_email,Multi Profile
+Email Verification,android_tv,multi_profile_email_verification,Multi Profile
+Email Verification,android_tv,multi_profile_email_new_user,Multi Profile
+Email Verification,android_tv,multi_profile_verification_new_user,Multi Profile
+Email Verification,android_tv,setting_my_account,Home Main > Setting
+Email Verification,android_tv,setting_my_account_2,Home Main > Setting
+Email Verification,roku,get_started,Run App > Sign In
+Email Verification,roku,sign_up,Run App > Landing > Sign Up
+Email Verification,roku,sign_up_2,Run App > Landing > Sign Up
+Email Verification,roku,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
+Email Verification,roku,sign_up_completed,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step > Sign Up Complete
+Email Verification,roku,sign_in,Run App > Landing > Sign In
+Email Verification,roku,sign_in_2,Run App > Landing > Sign In
+Email Verification,roku,sign_in_error,Run App > Landing > Sign In
+Email Verification,roku,Mobile_Sign_In,Run App > Landing > Mobile Sign In
+Email Verification,roku,privacy_policy,Run App > Landing > Privacy Policy
+Email Verification,roku,privacy_policy_content,Run App > Landing > Privacy Policy > Privacy Policy Content
+Email Verification,roku,multi_profile,Multi Profile
+Email Verification,roku,multi_profile_email,Multi Profile
+Email Verification,roku,multi_profile_email_verification,Multi Profile
+Email Verification,roku,multi_profile_email_new_user,Multi Profile
+Email Verification,roku,multi_profile_verification_new_user,Multi Profile
+Email Verification,roku,setting_my_account,Home Main > Setting
+Email Verification,roku,setting_my_account_2,Home Main > Setting
+Email Verification,smart_tv,Landing,Run App > Sign In
+Email Verification,smart_tv,Sign_Up,Run App > Landing > Sign Up
+Email Verification,smart_tv,Sign_Up_2,Run App > Landing > Sign Up
+Email Verification,smart_tv,Sign_Up_2nd_Step,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
+Email Verification,smart_tv,Sign_Up_3rd_Step,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
+Email Verification,smart_tv,Sign_Up_Complete,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up 3 Step > Sign Up Last Step > Sign Up Complete
+Email Verification,smart_tv,Sign_In,Run App > Landing > Sign In
+Email Verification,smart_tv,Sign_In_2,Run App > Landing > Sign In
+Email Verification,smart_tv,Sign_In_error,Run App > Landing > Sign In
+Email Verification,smart_tv,Mobile_Sign_In,Run App > Landing > Mobile Sign In
+Email Verification,smart_tv,Privacy_Policy,Run App > Landing > Privacy Policy
+Email Verification,smart_tv,Privacy_Policy_Content,Run App > Landing > Privacy Policy > Privacy Policy Content
+Email Verification,smart_tv,multi_profile,Multi Profile
+Email Verification,smart_tv,multi_profile_email,Multi Profile
+Email Verification,smart_tv,multi_profile_email_verification,Multi Profile
+Email Verification,smart_tv,multi_profile_email_new_user,Multi Profile
+Email Verification,smart_tv,multi_profile_verification_new_user,Multi Profile
+Email Verification,smart_tv,Setting_My_Account,Home Main > Setting
+Email Verification,smart_tv,Setting_My_Account_2,Home Main > Setting
