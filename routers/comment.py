@@ -12,6 +12,7 @@ router = APIRouter(prefix="/v01")
 class CommentSchema(BaseModel):
     project: str
     device: str
+    page_number: int
     page_name: str
     page_path: str
     ui_component: str

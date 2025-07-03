@@ -19,6 +19,7 @@ class Comment(Base):
     id = Column(Integer, primary_key=True, index=True)
     project = Column(String)
     device = Column(String)
+    page_number = Column(Integer)
     page_name = Column(String)
     page_path = Column(String)
     ui_component = Column(String)
