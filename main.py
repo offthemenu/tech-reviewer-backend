@@ -5,10 +5,19 @@ from contextlib import asynccontextmanager
 import os
 import uvicorn
 
+# Alembic imports
+from alembic.config import Config
+from alembic import command
+
 from import_wireframes import import_wireframes
 from models import Wireframe
-from database import SessionLocal
+from database import SessionLocal, DATABASE_URL
 from routers import wireframe, comment, upload, checker
+
+def run_migrations():
+    alembic_cfg = Config("alembic.ini")
+    alembic_cfg.set_main_option("sqlalchemy.url", DATABASE_URL)
+    command.upgrade(alembic_cfg, "head")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -26,6 +35,8 @@ async def lifespan(app: FastAPI):
 
     print("[LIFESPAN] Importing wireframes from CSV…")
     import_wireframes()
+
+    run_migrations()
 
     yield  # Application runs
 
