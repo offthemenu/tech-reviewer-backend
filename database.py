@@ -5,8 +5,6 @@ import os
 
 # Determine environment (Render sets this automatically)
 IS_RENDER = os.environ.get("RENDER") == "true"
-
-# Dynamic path based on environment
 DATABASE_URL = (
     "sqlite:////data/reviewer.db" if IS_RENDER else "sqlite:///./reviewer.db"
 )
