@@ -11,7 +11,8 @@ from alembic import command
 
 from import_wireframes import import_wireframes
 from models import Wireframe
-from database import SessionLocal, DATABASE_URL
+from database import SessionLocal, DATABASE_URL, engine
+from models import Base
 from routers import wireframe, comment, upload, checker
 
 def run_migrations():
@@ -32,11 +33,13 @@ async def lifespan(app: FastAPI):
     After the application shuts down, it optionally performs cleanup by closing
     the database session to release resources and avoid potential memory leaks.
     """
+    Base.metadata.create_all(bind=engine)
+
+    run_migrations()
 
     print("[LIFESPAN] Importing wireframes from CSV…")
     import_wireframes()
 
-    run_migrations()
 
     yield  # Application runs
 
