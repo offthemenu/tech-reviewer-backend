@@ -14,6 +14,6 @@ engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(bind=engine, autoflush=False)
 
 # Initialize tables if DB file doesn't exist
-db_path = "/data/reviewer.db" if IS_RENDER else "./reviewer.db"
-if not os.path.exists(db_path):
-    Base.metadata.create_all(bind=engine)
+# db_path = "/data/reviewer.db" if IS_RENDER else "./reviewer.db"
+# if not os.path.exists(db_path):
+#     Base.metadata.create_all(bind=engine)

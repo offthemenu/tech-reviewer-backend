@@ -33,13 +33,11 @@ async def lifespan(app: FastAPI):
     After the application shuts down, it optionally performs cleanup by closing
     the database session to release resources and avoid potential memory leaks.
     """
-    Base.metadata.create_all(bind=engine)
 
     run_migrations()
 
     print("[LIFESPAN] Importing wireframes from CSV…")
     import_wireframes()
-
 
     yield  # Application runs
 
