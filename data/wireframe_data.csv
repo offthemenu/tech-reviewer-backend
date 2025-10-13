@@ -43,14 +43,14 @@ Plan Page Improvement,smart_tv,Subscription,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Subscribed,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Purchase,Home Main > Subscription
 Plan Page Improvement,smart_tv,Subscription_Promotion,Home Main > Subscription
-Email Verification,web,get_started_screen,Get_Started Screen
-Email Verification,web,get_started_screen_2,Get_Started Screen
-Email Verification,web,get_started_screen_pop_up,Get_Started Screen
-Email Verification,web,get_started_screen_3,Get_Started Screen
-Email Verification,web,get_started_screen_4,Get_Started Screen
-Email Verification,web,get_started_screen_5,Get_Started Screen
-Email Verification,web,get_started_screen_6,Get_Started Screen
-Email Verification,web,get_started_screen_7,Get_Started Screen
+Get Started,web,get_started_screen,Get_Started Screen
+Get Started,web,get_started_screen_2,Get_Started Screen
+Get Started,web,get_started_screen_pop_up,Get_Started Screen
+Get Started,web,get_started_screen_3,Get_Started Screen
+Get Started,web,get_started_screen_4,Get_Started Screen
+Get Started,web,get_started_screen_5,Get_Started Screen
+Get Started,web,get_started_screen_6,Get_Started Screen
+Get Started,web,get_started_screen_7,Get_Started Screen
 Email Verification,web,sign_up,Get Started > Sign Up
 Email Verification,web,sign_up_error,Get Started > Sign Up
 Email Verification,web,sign_up_sso,Get Started > Sign Up
@@ -75,16 +75,16 @@ Email Verification,web,my_account_manage_not_save_popup,Home Main > My Account >
 Email Verification,web,my_account_manage_wait,Home Main > My Account > Management
 Email Verification,web,my_account_manage_wait_error,Home Main > My Account > Management
 Email Verification,web,my_account_manage_wait_error_2,Home Main > My Account > Management
-Email Verification,android_mobile,get_started_screen,Get Started
-Email Verification,android_mobile,get_started_screen,Get Started
-Email Verification,android_mobile,get_started_screen_FAQs,Get Started > FAQs
-Email Verification,android_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
-Email Verification,android_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
-Email Verification,android_mobile,get_started_screen_help_center,Get Started > Help Center
-Email Verification,android_mobile,get_started_screen_2nd,Get Started
-Email Verification,android_mobile,get_started_screen_3rd,Get Started
-Email Verification,android_mobile,get_started_screen_4th,Get Started
-Email Verification,android_mobile,get_started_screen_5th,Get Started
+Get Started,android_mobile,get_started_screen,Get Started
+Get Started,android_mobile,get_started_screen,Get Started
+Get Started,android_mobile,get_started_screen_FAQs,Get Started > FAQs
+Get Started,android_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
+Get Started,android_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
+Get Started,android_mobile,get_started_screen_help_center,Get Started > Help Center
+Get Started,android_mobile,get_started_screen_2nd,Get Started
+Get Started,android_mobile,get_started_screen_3rd,Get Started
+Get Started,android_mobile,get_started_screen_4th,Get Started
+Get Started,android_mobile,get_started_screen_5th,Get Started
 Email Verification,android_mobile,sign_up,Get Started > Sign Up
 Email Verification,android_mobile,sign_up_2,Get Started > Sign Up
 Email Verification,android_mobile,sign_up_error,Get Started > Sign Up
@@ -107,16 +107,16 @@ Email Verification,android_mobile,my_account_management_not_veri_edit,Home > Acc
 Email Verification,android_mobile,my_account_management_editing,Home > Account > My Account > Account Management
 Email Verification,android_mobile,my_account_management_popup1,Home > Account > My Account > Account Management
 Email Verification,android_mobile,my_account_management_wait_email_veri,Home > Account > My Account > Account Management
-Email Verification,apple_mobile,get_started_screen,Get Started
-Email Verification,apple_mobile,get_started_screen,Get Started
-Email Verification,apple_mobile,get_started_screen_FAQs,Get Started > FAQs
-Email Verification,apple_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
-Email Verification,apple_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
-Email Verification,apple_mobile,get_started_screen_help_center,Get Started > Help Center
-Email Verification,apple_mobile,get_started_screen_2nd,Get Started
-Email Verification,apple_mobile,get_started_screen_3rd,Get Started
-Email Verification,apple_mobile,get_started_screen_4th,Get Started
-Email Verification,apple_mobile,get_started_screen_5th,Get Started
+Get Started,apple_mobile,get_started_screen,Get Started
+Get Started,apple_mobile,get_started_screen,Get Started
+Get Started,apple_mobile,get_started_screen_FAQs,Get Started > FAQs
+Get Started,apple_mobile,get_started_screen_privacy_policy,Get Started > Privacy Policy
+Get Started,apple_mobile,get_started_screen_terms_of_use,Get Started > Terms of Use
+Get Started,apple_mobile,get_started_screen_help_center,Get Started > Help Center
+Get Started,apple_mobile,get_started_screen_2nd,Get Started
+Get Started,apple_mobile,get_started_screen_3rd,Get Started
+Get Started,apple_mobile,get_started_screen_4th,Get Started
+Get Started,apple_mobile,get_started_screen_5th,Get Started
 Email Verification,apple_mobile,sign_up,Get Started > Sign Up
 Email Verification,apple_mobile,sign_up_2,Get Started > Sign Up
 Email Verification,apple_mobile,sign_up_error,Get Started > Sign Up
@@ -139,7 +139,7 @@ Email Verification,apple_mobile,my_account_management_not_veri_edit,Home > Accou
 Email Verification,apple_mobile,my_account_management_editing,Home > Account > My Account > Account Management
 Email Verification,apple_mobile,my_account_management_popup1,Home > Account > My Account > Account Management
 Email Verification,apple_mobile,my_account_management_wait_email_veri,Home > Account > My Account > Account Management
-Email Verification,apple_tv,get_started,Run App > Sign In
+Get Started,apple_tv,get_started,Run App > Sign In
 Email Verification,apple_tv,sign_up,Run App > Landing > Sign Up
 Email Verification,apple_tv,sign_up_2,Run App > Landing > Sign Up
 Email Verification,apple_tv,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
@@ -157,7 +157,7 @@ Email Verification,apple_tv,multi_profile_email_new_user,Multi Profile
 Email Verification,apple_tv,multi_profile_verification_new_user,Multi Profile
 Email Verification,apple_tv,setting_my_account,Home Main > Setting
 Email Verification,apple_tv,setting_my_account_2,Home Main > Setting
-Email Verification,android_tv,get_started,Run App > Sign In
+Get Started,android_tv,get_started,Run App > Sign In
 Email Verification,android_tv,sign_up,Run App > Landing > Sign Up
 Email Verification,android_tv,sign_up_2,Run App > Landing > Sign Up
 Email Verification,android_tv,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
@@ -175,7 +175,7 @@ Email Verification,android_tv,multi_profile_email_new_user,Multi Profile
 Email Verification,android_tv,multi_profile_verification_new_user,Multi Profile
 Email Verification,android_tv,setting_my_account,Home Main > Setting
 Email Verification,android_tv,setting_my_account_2,Home Main > Setting
-Email Verification,roku,get_started,Run App > Sign In
+Get Started,roku,get_started,Run App > Sign In
 Email Verification,roku,sign_up,Run App > Landing > Sign Up
 Email Verification,roku,sign_up_2,Run App > Landing > Sign Up
 Email Verification,roku,sign_up_email,Run App > Landing > Sign Up > Terms of Use > Privacy Policy > Sign Up Last Step
